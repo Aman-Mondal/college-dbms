@@ -74,7 +74,7 @@ SET
 WHERE
     title = 'gone with the wind';
 
--- 9 Delete the record with invoice number'l 08' from the invoice table.
+-- 9 Delete the record with invoice number'i08' from the invoice table.
 DELETE FROM Invoice
 WHERE
     inv_no = 'i08';
