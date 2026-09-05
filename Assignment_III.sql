@@ -1,11 +1,12 @@
 -- 1. (a) Create Customer master table: Cust
-Cust (
-    cust_id VARCHAR(3) PRIMARY KEY,
-    lname VARCHAR(15),
-    fname VARCHAR(15),
-    area VARCHAR(2),
-    phone_no INT
-);
+CREATE TABLE
+    Cust (
+        cust_id VARCHAR(3) PRIMARY KEY,
+        lname VARCHAR(15),
+        fname VARCHAR(15),
+        area VARCHAR(2),
+        phone_no INT
+    );
 
 -- (b) Create Movies master table : Movie
 CREATE TABLE
