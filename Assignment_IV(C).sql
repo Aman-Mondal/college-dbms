@@ -11,7 +11,7 @@ WHERE
 SELECT
     title,
     price,
-    price * 15 AS new_price
+    price * 15
 FROM
     Movie
 WHERE
